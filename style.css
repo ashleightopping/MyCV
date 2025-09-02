@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  border-bottom: 3px solid #444;
+}
+
+header h2 {
+  font-size: 2.2rem;
+  margin: 0.5rem 0;
+  color: #222;
+}
+
+img {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid lightseagreen;
+}
+
+nav {
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+nav ul { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+ }
+ 
+nav a { 
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background: lightseagreen;
+  color: black;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 1rem 2rem;
+}
+
+img:hover {
+  transform: scale(1.1); /* expands the image */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* adds a soft shadow when hovered */
+}
+
+h3 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+    color: #222;
+}
+
+ul, ol {
+  padding-left: 1.2rem;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  margin-top: 2rem;
+}
